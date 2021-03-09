@@ -893,11 +893,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-<<<<<<< HEAD
     background: url('./images/20006_02_A02.jpg') no-repeat -1650px -1300px;
-=======
-    background: url('./images/20006_02_A02.jpg') no-repeat -185Vh -135vh;
->>>>>>> 2408a25cb6cd32ae76f77f1c3db9960ce6e6d2fb
    
   }
 
