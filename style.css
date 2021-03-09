@@ -893,12 +893,13 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/MOBILE_01.jpg') no-repeat center;
+    background: url('./images/20006_02_A02.jpg') no-repeat -185Vh -135vh;
+   
   }
 
   .header-banner__h1 {
     width: calc(96vw - (96vw - 96%));
-     margin-top:33vh;
+     margin-top:34vh;
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1.5vw;
     position: absolute;
@@ -913,7 +914,7 @@ content:'\f1b5';
     width: calc(96vw - (96vw - 96%));
     position: absolute;
     top: 25vh;
-    font-size: 1.20vw;
+    font-size: 2vw;
     z-index: 20;
     font-family: 'Spectral', serif;
     mix-blend-mode: soft-light;
@@ -925,7 +926,7 @@ content:'\f1b5';
     width: calc(96vw - (96vw - 96%));
     position: absolute;
     top: 27vh;
-    font-size: 1.25vw;
+    font-size: 2vw;
     z-index: 20;
     font-family: 'Spectral', serif;
     mix-blend-mode: soft-light;
