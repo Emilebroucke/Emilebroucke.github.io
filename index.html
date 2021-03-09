@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>In context</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="aos.css" />
+  <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+  <noscript>
+    <style type="text/css">
+      body {
+        display: none;
+      }
+    </style>
+    <meta http-equiv="refresh" content="0; url=./noscript.html">
+  </noscript>
+  <script src="unsupported-browser.js"></script>
+</head>
+
+<body>
+  <div class="navigation-container">
+    <nav class="nav" id="navigation">
+      <div class="language-menu">
+        <a>
+          <details class='details'>
+            <summary class="summary" id="language-picker">
+            </summary>
+            <div class='opt-wrapper'>
+              <button type="button" data-lang='en' class='opt selected'>
+                EN</button>
+              <button type="button" data-lang='nl' class='opt'>
+                NL</button>
+              <button type="button" data-lang='fr' class='opt'>
+                FR</button>
+            </div>
+          </details>
+        </a>
+      </div>
+      <div class="icon-menu">
+        <a href="https://nl.wikipedia.org/wiki/The_Lord_of_the_Rings_%28films%29" target="_blank" class="icon"></a>
+        <a href="https://nl.wikipedia.org/wiki/The_Lord_of_the_Rings_%28films%29" target="_blank" class="icon"></a>
+
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <header class="header-banner" id="header-banner">
+      <h1 class="header-banner__h1">CONTEXT</h1>
+      <h2 class="header-banner__h2">A CG studio,</h2>
+      <h3 class="header-banner__h3">rendering architecture</h3>
+      <div class="background-cover"></div>
+    
+     
+    </header>
+    <button type="button" id="scrolling-button" name="scrolling-arrow" class="scrolling-arrow"></button>
+    <div class="content-container">
+      <div class="expanding-grid" id="__expanding-grid">
+        <ul class="links" data-aos="fade-up">
+          <li>
+            <a href="#about" class="links-img01">
+              <div class="overlay"></div>
+              <p data-localize="menu.about"></p>
+            </a>
+          </li>
+          <li>
+            <a href="#services" class="links-img02">
+              <div class="overlay"></div>
+              <p data-localize="menu.services"></p>
+            </a>
+          </li>
+          <li>
+            <a href="#workflow" class="links-img03">
+              <div class="overlay"></div>
+              <p data-localize="menu.workflow"></p>
+            </a>
+          </li>
+          <li>
+            <a href="#pricing" class="links-img04">
+              <div class="overlay"></div>
+              <p data-localize="menu.pricing"></p>
+            </a>
+          </li>
+        </ul>
+
+        <div id="about" class="expanding-container">
+          <article class="hentry red">
+            <h1 class="entry-title">WHO WE ARE</h1>
+            <div class="entry-image">
+              <div><img class="img-placeholder__img" src="/images/M_1.jpg" /> </div>
+            </div>
+            <p data-localize="content.about">about</p>
+          </article>
+        </div>
+
+        <div id="services" class="expanding-container">
+          <article class="hentry dark-green">
+            <h1 class="entry-title">WHAT WE PRODUCE</h1>
+            <div class="entry-image">
+              <div><img class="img-placeholder__img" src="/images/M_02.jpg" /></div>
+            </div>
+            <p data-localize="content.services">services</p> 
+          </article>
+        </div>
+
+        <div id="workflow" class="expanding-container">
+          <article class="hentry red">
+            <h1 class="entry-title">HOW WE WORK</h1>
+            <div class="entry-image">
+              <div><img class="img-placeholder__img" src="/images/M_03.jpg" /></div>
+            </div>
+            <p data-localize="content.workflow">workflow</p>
+          </article>
+        </div>
+
+        
+
+        <div id="pricing" class="expanding-container">
+          <article class="hentry yellow">
+            <h1 class="entry-title">GET IN TOUCH</h1>
+            <div class="entry-image">
+              <div><img class="img-placeholder__img" src="/images/M_05.jpg" /></div>
+            </div>
+            <p data-localize="content.pricing">contact</p>
+          </article>
+        </div>
+
+       
+      </div>
+
+      <div class="section-title">
+        <h2> </h2>
+    
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20026_04b.jpg" data-fancybox="images" data-caption="ZAAL ZALIGER">
+            <div class="image01"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>ZAAL ZALIGER</p>
+                <p class="opacity-low">Barbara Standaert</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20026_05a.jpg" data-fancybox="images" data-caption="ZAAL ZALIGER">
+            <div class="image02"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>ZAAL ZALIGER</p>
+                <p class="opacity-low">Barbara Standaert</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+  
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20107_01_cam001a.jpg" data-fancybox="images" data-caption="KYKLADON">
+            <div class="image03"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>RESIDENCE KYKLADON</p>
+                <p class="opacity-low">P. Guidance</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20107_01_cam001b.jpg" data-fancybox="images" data-caption="KYKLADON">
+            <div class="image04"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>RESIDENCE KYKLADON</p>
+                <p class="opacity-low">P. Guidance</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20107_01_cam003a.jpg" data-fancybox="images" data-caption="KYKLADON">
+            <div class="image05"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>RESIDENCE KYKLADON</p>
+                <p class="opacity-low">P. Guidance</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20107_01_cam003a avond.jpg" data-fancybox="images" data-caption="KYKLADON">
+            <div class="image06"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>RESIDENCE KYKLADON</p>
+                <p class="opacity-low">P. Guidance</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/03.effectsResult-2.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
+            <div class="image07"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GALLERY OF LIGHT HOUSE</p>
+                <p class="opacity-low">Studio Guilherme Torres</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/04.effectsResult-2.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
+            <div class="image08"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GALLERY OF LIGHT HOUSE</p>
+                <p class="opacity-low">Studio Guilherme Torres</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20003_20_CAM001a.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
+            <div class="image09"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GALLERY OF LIGHT HOUSE</p>
+                <p class="opacity-low">Studio Guilherme Torres</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20003_20_CAM002.RGB_color-3.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
+            <div class="image10"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GALLERY OF LIGHT HOUSE</p>
+                <p class="opacity-low">Studio Guilherme Torres</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/01.RGB_color-2.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
+            <div class="image11"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GALLERY OF LIGHT HOUSE</p>
+                <p class="opacity-low">Studio Guilherme Torres</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20017_02a.RGB_color.jpg" data-fancybox="images" data-caption="SARAH COLLECTION">
+            <div class="image12"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>SARAH COLLECTION</p>
+                <p class="opacity-low">Kate Duncan</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20021_03a.RGB_color.jpg" data-fancybox="images" data-caption="ROTAN">
+            <div class="image13"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>ROTAN</p>
+                <p class="opacity-low">CLOU</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20001_02a (1).jpg" data-fancybox="images" data-caption="CAVETT CHAIR">
+            <div class="image14"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>CAVETT CHAIR</p>
+                <p class="opacity-low">Crate & Barrel</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20001_03a.jpg" data-fancybox="images" data-caption="CAVETT CHAIR">
+            <div class="image15"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>CAVETT CHAIR</p>
+                <p class="opacity-low">Crate & Barrel</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20012_07a.jpg" data-fancybox="images" data-caption="AVENUE 13">
+            <div class="image16"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>AVENUE 13</p>
+                <p class="opacity-low">DCI Development</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/01.effectsResult-4.jpg" data-fancybox="images" data-caption="LOFT GOGON">
+            <div class="image17"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>LOFT GOGON</p>
+                <p class="opacity-low">Smart Design Studio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20004_02_CAM004a.jpg" data-fancybox="images" data-caption="LOFT GOGON">
+            <div class="image18"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>LOFT GOGON</p>
+                <p class="opacity-low">Smart Design Studio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20004_02_CAM005a.jpg" data-fancybox="images" data-caption="LOFT GOGON">
+            <div class="image19"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>LOFT GOGON</p>
+                <p class="opacity-low">Smart Design Studio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20004_02_CAM003a.jpg" data-fancybox="images" data-caption="LOFT GOGON">
+            <div class="image20"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>LOFT GOGON</p>
+                <p class="opacity-low">Smart Design Studio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20015_02a.jpg" data-fancybox="images" data-caption="GRANDOLA CENTER">
+            <div class="image21"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GRANDOLA CENTER</p>
+                <p class="opacity-low">Aires Mateus</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20016_11_A.jpg" data-fancybox="images" data-caption="GRANDOLA CENTER">
+            <div class="image22"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>GRANDOLA CENTER</p>
+                <p class="opacity-low">Aires Mateus</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20020_02a_A.jpg" data-fancybox="images" data-caption="BALMAIN EAST">
+            <div class="image23"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>BALMAIN EAST</p>
+                <p class="opacity-low">Benn + Penna</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20013_06a_A.jpg" data-fancybox="images" data-caption="VIA CORSA 67">
+            <div class="image24"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>VIA CORSA 67</p>
+                <p class="opacity-low">Bertolini Architects</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20005_03_CAM001a.jpg" data-fancybox="images" data-caption="OSKA JUNGLE GREEN">
+            <div class="image25"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>OSKA JUNGLE GREEN</p>
+                <p class="opacity-low">Mandarin Stone</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20024_05a.jpg" data-fancybox="images" data-caption="CERAMIC RED SQ">
+            <div class="image26"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>CERAMIC RED SQ</p>
+                <p class="opacity-low">Productora</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20025_09a.jpg" data-fancybox="images" data-caption="K&CO">
+            <div class="image27"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>K&CO</p>
+                <p class="opacity-low">Plantea Estudio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20010_11a.jpg" data-fancybox="images" data-caption="OFFICE VAN ROEY">
+            <div class="image28"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>OFFICE IT GO</p>
+                <p class="opacity-low">S21 Architects</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20010_15a.jpg" data-fancybox="images" data-caption="OFFICE VAN ROEY">
+            <div class="image29"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>OFFICE IT GO</p>
+                <p class="opacity-low">S21 Architects</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/20035_04_cam001a.jpg" data-fancybox="images" data-caption="OFFICE VAN ROEY">
+            <div class="image30"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>OFFICE VAN ROEY</p>
+                <p class="opacity-low">Schellen Architecten</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20011_02a_A.jpg" data-fancybox="images" data-caption="#STEUNDEHORECA">
+            <div class="image31"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>#STEUNDEHORECA</p>
+                <p class="opacity-low">2020 Corona Campaign</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="img-box">
+          <a href="./images/200014_07a.jpg" data-fancybox="images" data-caption="BAR GOLD">
+            <div class="image32"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>BAR GOLD</p>
+                <p class="opacity-low">CLOU</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="image-row" data-aos="fade-up">
+      <div class="img-box">
+        <a href="./images/20043_10a.jpg" data-fancybox="images" data-caption="LIDL">
+          <div class="image33"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>LIDL</p>
+              <p class="opacity-low">Tecro & Krea</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="image-row" data-aos="fade-up">
+      <div class="img-box">
+        <a href="./images/20006_08_CAM001a.jpg" data-fancybox="images" data-caption="HOGE VENEN RESEARCH CENTER">
+          <div class="image34"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>HOGE VENEN RESEARCH CENTER</p>
+              <p class="opacity-low">MBD Arch.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="img-box">
+        <a href="./images/20023_03a.jpg" data-fancybox="images" data-caption="VRIJBROEK PARK">
+          <div class="image35"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>VRIJBROEK PARK</p>
+              <p class="opacity-low">Stad Mechelen</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="img-box">
+        <a href="./images/20009_10a_A.jpg" data-fancybox="images" data-caption="ROSEWOOD STUDIO">
+          <div class="image36"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>ROSEWOOD STUDIO</p>
+              <p class="opacity-low">Haptic Architects</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <div class="image-row" data-aos="fade-up">
+      <div class="img-box">
+        <a href="./images/20006_02_A.jpg" data-fancybox="images" data-caption="LIST RESIDENCE">
+          <div class="image37"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>LIST RESIDENCE</p>
+              <p class="opacity-low">R&D Design</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="img-box">
+        <a href="./images/20019_08a.jpg" data-fancybox="images" data-caption="POOLSIDE">
+          <div class="image38"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>POOLSIDE</p>
+              <p class="opacity-low">Mon Palmer</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="image-row" data-aos="fade-up">
+      <div class="img-box">
+        <a href="./images/20044_01a.jpg" data-fancybox="images" data-caption="LANGESTRAAT BRUGGE">
+          <div class="image39"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>LANGESTRAAT BRUGGE</p>
+              <p class="opacity-low">Immo Delbecque</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="image-row" data-aos="fade-up">
+      <div class="img-box">
+        <a href="./images/19101_Test55c.jpg" data-fancybox="images" data-caption="KZZ IEPER">
+          <div class="image40"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>KZZ IEPER</p>
+              <p class="opacity-low">Verstraete</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="img-box">
+        <a href="./images/Test_Final_02a.jpg" data-fancybox="images" data-caption="N HOUSE">
+          <div class="image41"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>N HOUSE</p>
+              <p class="opacity-low">Damilano Design</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="img-box">
+        <a href="./images/19001_06.jpg" data-fancybox="images" data-caption="KEENAN TOWER">
+          <div class="image42"></div>
+          <div class="transparent-box">
+            <div class="caption">
+              <p>KEENAN TOWER</p>
+              <p class="opacity-low">Marlon Blackwell</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="image-row" data-aos="fade-up">
+    <div class="img-box">
+      <a href="./images/20098_01_cam001a.jpg" data-fancybox="images" data-caption="VISMIJNLAAN">
+        <div class="image43"></div>
+        <div class="transparent-box">
+          <div class="caption">
+            <p>VISMIJNLAAN</p>
+            <p class="opacity-low">OVHC</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+
+    </div>
+
+  </div>
+
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Shippori+Mincho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+  </style>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./jquery.js"></script>
+  <script src="./jquery.localize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

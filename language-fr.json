@@ -1,0 +1,28 @@
+{
+  "menu": {
+    "about": "Sur nous",
+    "services": "Services",
+    "pricing": "Prix",
+    "workflow": "Workflow",
+    "jobs": "Jobs",
+    "contact": "Contact"
+  },
+  "quotes": {
+    "first-quote-title": "What do our customers say?",
+    "first-quote": "Mon dieu. Superb.",
+    "second-quote-title": "This is yet another quote",
+    "second-quote": "I love this website. One of the best. Actually, the best."
+  },
+  "content": {
+    "about": "Gandalf (Norse; IPA: [gand:alf] - 'Elf of the Wand' or 'Wand-elf') the Grey, later known as Gandalf the White, and originally named Olórin (Quenya; IPA: [oˈloːrin] - 'Dreamer' or 'Of Dreams'), was an Istar (Wizard), sent to Middle-earth in the Third Age to combat the threat of Sauron. He joined Thorin and his company to reclaim the Lonely Mountain from Smaug, convoked the Fellowship of the Ring to destroy the One Ring, and led the Free Peoples in the final campaign of the War of the Ring.",
+    "workflow": "Sauron (Q.: IPA [ˈsaʊron] or IPA [ˈθaʊron] (in Vanyarin) – 'The Abhorred'), the eponymous Lord of the Rings, was a fallen Maia, creator of the One Ring, a gifted student of Vala Aulë the Smith and lieutenant of Melkor (Morgoth). After his master's defeat by the Valar, Sauron became the second Dark Lord and sought to conquer Arda by creating the Rings of Power.",
+    "services": "Sauron (Q.: IPA [ˈsaʊron] or IPA [ˈθaʊron] (in Vanyarin) – 'The Abhorred'), the eponymous Lord of the Rings, was a fallen Maia, creator of the One Ring, a gifted student of Vala Aulë the Smith and lieutenant of Melkor (Morgoth). After his master's defeat by the Valar, Sauron became the second Dark Lord and sought to conquer Arda by creating the Rings of Power.",
+    "pricing": "Sauron (Q.: IPA [ˈsaʊron] or IPA [ˈθaʊron] (in Vanyarin) – 'The Abhorred'), the eponymous Lord of the Rings, was a fallen Maia, creator of the One Ring, a gifted student of Vala Aulë the Smith and lieutenant of Melkor (Morgoth). After his master's defeat by the Valar, Sauron became the second Dark Lord and sought to conquer Arda by creating the Rings of Power.",
+    "jobs": "Sauron (Q.: IPA [ˈsaʊron] or IPA [ˈθaʊron] (in Vanyarin) – 'The Abhorred'), the eponymous Lord of the Rings, was a fallen Maia, creator of the One Ring, a gifted student of Vala Aulë the Smith and lieutenant of Melkor (Morgoth). After his master's defeat by the Valar, Sauron became the second Dark Lord and sought to conquer Arda by creating the Rings of Power.",
+    "contact": "Aragorn II, son of Arathorn II and Gilraen, also known as Elessar and Strider, was the 16th Chieftain of the Dúnedain of the North; later crowned King Elessar Telcontar (March 1, 2931 - FO 120 or SR 1541), the 26th King of Arnor and 35th King of Gondor - and first High King of Gondor and Arnor since the short reign of Isildur. He was a great ranger and warrior, and as Isildur's heir he bore the shards of Narsil, reforged and renamed Andúril, Flame of the West, in the War of the Ring."
+  },
+  "footer": {
+    "title": "In Context",
+    "description": "The Rings: The Fellowship of the Ring) est un film américano-néo-zélandais réalisé par Peter Jackson, sorti en 2001. C'est le premier volet de la trilogie Le Seigneur des anneaux et l'adaptation du livre La Communauté de l'Anneau (1954) de J. R. R. Tolkien."
+  }
+}
