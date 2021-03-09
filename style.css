@@ -126,6 +126,7 @@ header {
 
 /* Title h2*/
 .header-banner__h2 {
+  width: calc(96vw - (96vw - 96%));
   position: inherit;
   font-size: 1vw;
   z-index: 20;
@@ -135,6 +136,7 @@ header {
 
 /* Title h3 */
 .header-banner__h3 {
+  width: calc(96vw - (96vw - 96%));
   position: inherit;
   font-size: 1vw;
   z-index: 20;
@@ -895,10 +897,12 @@ content:'\f1b5';
   }
 
   .header-banner__h1 {
- 
+    width: calc(96vw - (96vw - 96%));
      margin-top:33vh;
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1.5vw;
+    position: absolute;
+    right: -1vh;
     font-size: 22vw;
     position: inherit;
     z-index: 20;
@@ -907,23 +911,25 @@ content:'\f1b5';
 
   .header-banner__h2 {
     width: calc(96vw - (96vw - 96%));
-    position: inherit;
+    position: absolute;
+    top: 25vh;
     font-size: 1.20vw;
     z-index: 20;
     font-family: 'Spectral', serif;
     mix-blend-mode: soft-light;
-    transform: translateY(-10vh) translateX(16.7vh);
+  
   
   }
 
   .header-banner__h3 {
     width: calc(96vw - (96vw - 96%));
-    position: inherit;
+    position: absolute;
+    top: 27vh;
     font-size: 1.25vw;
     z-index: 20;
     font-family: 'Spectral', serif;
     mix-blend-mode: soft-light;
-    transform: translateY(-2vh) translateX(12.51vh);
+
   }
 
   .scrolling-arrow {
@@ -995,7 +1001,7 @@ content:'\f1b5';
 
 
   .expanding-grid .hentry .entry-title {
-    
+    width: calc(96vw - (96vw - 96%));
     font-size: 0.5em;
     text-align: left;
     transform: translateX(-1.35em);
@@ -1003,6 +1009,7 @@ content:'\f1b5';
   }
   
   .expanding-grid .hentry h1 {
+    width: calc(96vw - (96vw - 96%));
     color: rgb(255, 255, 255);
     font-size: 1em;
     letter-spacing: 0.05em;
@@ -1158,7 +1165,39 @@ content:'\f1b5';
 }
 
 
-  
+
+.header-banner__h1{
+
+    
+  color: rgb(170, 172, 255);
+  color: #fff;
+  background: linear-gradient(110deg, #ffffffb4 33%, rgba(255, 176, 176, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
+  background-size: 300%;
+   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+
+
+  animation: Gradient 1s ease-in infinite;
+  -webkit-animation: Gradient 6s  forwards;
+  -moz-animation: Gradient 1s ease-in  infinite;
+}
+
+@-webkit-keyframes Gradient {
+0% {
+  background-position: 0% 25%
+}
+50% {
+  background-position: 25% 100%
+}
+100% {
+  background-position: 0% 0%
+}
+
+}
+
+
   .header-banner__h2{
 
     
