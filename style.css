@@ -470,7 +470,8 @@ hr {
 .caption {
   font-size: 1EM;
   z-index: 20;
-  font-family: 'Spectral', serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   color: white;
   position: absolute;
   width: 100%;
@@ -503,7 +504,8 @@ hr {
   opacity: 1;
   font-size: 1EM;
   z-index: 20;
-  font-family: 'Spectral', serif;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 .img-box:hover {
