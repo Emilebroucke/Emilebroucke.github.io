@@ -751,6 +751,11 @@ hr {
   flex: 1;
 }
 
+.image44 {
+  background-image: url('./images/GT44.jpg');
+  flex: 1;
+  height: 500px;
+}
 /* ------------------- Icon menu ------------------- */
 
 .icon-menu {
@@ -935,8 +940,9 @@ content:'\f1b5';
     top: 25vh;
     font-size: 2vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
-    mix-blend-mode: soft-light;
+    font-family: 'Roboto', sans-serif; font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;    mix-blend-mode: soft-light;
   
   
   }
@@ -947,7 +953,9 @@ content:'\f1b5';
     top: 27vh;
     font-size: 2vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
 
   }
@@ -1121,7 +1129,9 @@ content:'\f1b5';
     top: 23vh;
     font-size: 1.75vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1VH);
   
@@ -1134,7 +1144,9 @@ content:'\f1b5';
     top: 25vh;
     font-size: 1.75vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1VH);
   }
@@ -1340,7 +1352,9 @@ content:'\f1b5';
     top: 23vh;
     font-size: 1.5vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1VH);
   
@@ -1352,7 +1366,9 @@ content:'\f1b5';
     top: 25vh;
     font-size: 1.5vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1VH);
   }
@@ -1529,7 +1545,9 @@ content:'\f1b5';
     top: 15vh;
     font-size: 0.750vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
     mix-blend-mode: soft-light;
     transform: translateX(1.85EM);
    
@@ -1543,7 +1561,9 @@ content:'\f1b5';
     top: 17vh;
     font-size: 0.750vw;
     z-index: 20;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(2EM);
 
