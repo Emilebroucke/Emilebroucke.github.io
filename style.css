@@ -920,7 +920,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat bottom bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1595,7 +1595,11 @@ content:'\f1b5';
 
   }
 
-
+  .scrolling-arrow, .scrolling-arrow:before {
+    width: calc(96vw - (96vw - 96%));
+    position: absolute;
+    left: 50%;
+  }
 
   .scrolling-arrow {
     position: absolute;
