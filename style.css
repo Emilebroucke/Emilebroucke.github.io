@@ -1520,7 +1520,11 @@ content:'\f1b5';
 @media only screen and (min-width: 1025px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20006_02_A.jpg') 70% 60.5%;
+    background: url('./images/20015_06a.RGB_color\ 02.jpg') no-repeat center bottom fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; ;
    opacity: 1;
   }
   
@@ -1578,7 +1582,7 @@ content:'\f1b5';
 
     width: 2px;
     height: 2px;
-    top: 85.5vh;
+    top: 83.5vh;
     right: 200vh;
     margin: -5px 0 0 -5px;
     padding: 10px;
@@ -1650,7 +1654,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
-    transform: translateX(0vh)translateY(7.5vh);
+    transform: translateX(0vh)translateY(-05.0vh);
     white-space: pre-wrap;
   
   }
