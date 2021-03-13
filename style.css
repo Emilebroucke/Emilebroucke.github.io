@@ -107,7 +107,11 @@ header {
   color: rgb(255, 255, 255);
   position: relative;
   animation: appearingBanner 1s;
-  background: url('./images/HEADER\ WEB\ \ ULTRA\ HIGH.jpg') no-repeat center;
+  background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; ;
 
 
 }
@@ -916,7 +920,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_06a.RGB_color\ 02.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1108,7 +1112,7 @@ content:'\f1b5';
 @media only screen and (min-width: 40em) and (max-width: 59.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_06a.RGB_color\ 02.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1335,7 +1339,7 @@ content:'\f1b5';
 @media only screen and (min-width: 60em) and (max-width: 1024px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_06a.RGB_color\ 02.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1532,7 +1536,7 @@ content:'\f1b5';
 @media only screen and (min-width: 1025px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_06a.RGB_color\ 02.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
