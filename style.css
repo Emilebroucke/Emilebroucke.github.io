@@ -1540,11 +1540,12 @@ content:'\f1b5';
 @media only screen and (min-width: 1025px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; ;
+    background-size: cover bottom;
+    background-position-y: -136vh; 
    opacity: 1;
   }
   
@@ -1562,19 +1563,20 @@ content:'\f1b5';
     mix-blend-mode: overlay;
     -webkit-text-stroke-width: 1PX;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0);
-    text-shadow: 02px 2px 2px #858585;
+    text-shadow: 3px 3px 3px #858585;
   }
 
   .header-banner__h2 {
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 15vh;
+    top: 19vh;
     font-size: 0.750vw;
     z-index: 20;
+    
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
-    mix-blend-mode: soft-light;
+    mix-blend-mode: normal;
     transform: translateX(1.85EM);
    
   
@@ -1584,13 +1586,13 @@ content:'\f1b5';
  
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 17vh;
+    top: 21vh;
     font-size: 0.750vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: italic;
-    mix-blend-mode: soft-light;
+    mix-blend-mode: normal;
     transform: translateX(2EM);
 
   }
@@ -1802,7 +1804,7 @@ content:'\f1b5';
     
   color: rgb(170, 172, 255);
   color: #fff;
-  background: linear-gradient(110deg, #ffffffb4 33%, rgba(255, 176, 176, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
+  background: linear-gradient(110deg, #000000 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(110deg, #ffffff 34%, #ffffff00 34%);
   background-size: 300%;
    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -1810,20 +1812,20 @@ content:'\f1b5';
 
 
 
-  animation: Gradient 1s ease-in infinite;
-  -webkit-animation: Gradient 6s  forwards;
-  -moz-animation: Gradient 1s ease-in  infinite;
+  animation: Gradient 12s ease-in infinite;
+  -webkit-animation: Gradient 12s ease-in-out forwards;
+  -moz-animation: Gradient 12s ease-in  infinite;
 }
 
 @-webkit-keyframes Gradient {
 0% {
-  background-position: 0% 25%
+  background-position: 0% 24%
 }
 50% {
-  background-position: 25% 100%
+  background-position: 25% 74%
 }
 100% {
-  background-position: 0% 0%
+  background-position: 77% 100%
 }
 
 }
@@ -1833,8 +1835,8 @@ content:'\f1b5';
 
     
     color: rgb(170, 172, 255);
-    color: #fff;
-    background: linear-gradient(110deg, #ffffffb4 33%, rgba(255, 176, 176, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
+    color: rgb(0, 0, 0);
+    background: linear-gradient(110deg, #000000 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
     background-size: 300%;
      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
@@ -1843,7 +1845,7 @@ content:'\f1b5';
   
   
     animation: Gradient 1s ease-in infinite;
-    -webkit-animation: Gradient 6s  forwards;
+    -webkit-animation: Gradient 6s ease-in forwards;
     -moz-animation: Gradient 1s ease-in  infinite;
   }
   
@@ -1867,7 +1869,7 @@ content:'\f1b5';
     
     color: rgb(170, 172, 255);
     color: #fff;
-    background: linear-gradient(110deg, #ffffffb4 33%, rgba(255, 176, 176, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
+    background: linear-gradient(110deg, #000000 33%, rgba(255, 176, 176, 0) 33%), linear-gradient(110deg, #ffffffcc 34%, #ffffff00 34%);
     background-size: 300%;
      -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
@@ -1876,7 +1878,7 @@ content:'\f1b5';
   
   
     animation: Gradient 1s ease-in infinite;
-    -webkit-animation: Gradient 6s  forwards;
+    -webkit-animation: Gradient 6s ease-in  forwards;
     -moz-animation: Gradient 1s ease-in  infinite;
   }
   
