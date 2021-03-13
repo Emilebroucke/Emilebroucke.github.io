@@ -1461,9 +1461,9 @@ content:'\f1b5';
     display: inline-block;
     width:10px;
     height:10px;
-    transform: translateX(28.0em);
+    transform: translateX(0.0em);
     padding-top:0.5em;
-    padding-right:29.50em;
+    padding-right:1.50em;
     mix-blend-mode: overlay;
   }
  
