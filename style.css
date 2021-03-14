@@ -1295,7 +1295,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
-    transform: translateX(1vh)translateY(-4.0vh);
+    transform: translateX(2vh)translateY(-4.0vh);
     white-space: pre-wrap;
   
   }
@@ -1517,7 +1517,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.04em;
     text-align: center;
-    transform: translateX(1vh)translateY(-7vh);
+    transform: translateX(2vh)translateY(-7vh);
     white-space: pre-wrap;
   
   }
@@ -1711,9 +1711,9 @@ content:'\f1b5';
     font-size: 00.80em;
     line-height: 1.4;
     letter-spacing: 0.04em;
-    text-align: justify center;
-    transform: translateX(0vh)translateY(-05.0vh);
-    white-space: pre-wrap;
+    text-align: center;
+    transform: translateX(03vh)translateY(-05.0vh);
+   
   
   }
 
@@ -1904,7 +1904,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.04em;
     text-align: justify center;
-    transform: translateX(0vh)translateY(-02.0vh);
+    transform: translateX(3vh)translateY(-02.0vh);
     white-space: pre-wrap;
   
   }
@@ -2097,7 +2097,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.04em;
     text-align: justify center;
-    transform: translateX(0vh)translateY(-01.0vh);
+    transform: translateX(3vh)translateY(-01.0vh);
     white-space: pre-wrap;
   
   }
