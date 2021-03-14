@@ -393,9 +393,10 @@ hr {
 }
 
 .expanding-grid .hentry .entry-title {
-  font-size: 1.5em;
+  font-size: 1.0em;
   text-align: left;
-  transform: translateX(-1.35em);
+  transform: translateX(-2.0em);
+  text-decoration: underline;
   /* color: #fff */
 }
 
@@ -1064,7 +1065,7 @@ content:'\f1b5';
     line-height: 1.4;
     letter-spacing: 0.04em;
     text-align: center;
-    transform: translateX(1vh)translateY(-5.5vh);
+    transform: translateX(1vh)translateY(-8.5vh);
     white-space: pre-wrap;
   
   }
