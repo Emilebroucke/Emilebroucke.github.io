@@ -1062,7 +1062,7 @@ content:'\f1b5';
     width: calc(96vw - (96vw - 96%));
     font-size: 01.0em;
     line-height: 1.4;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     text-align: center;
     transform: translateX(1vh)translateY(-5.5vh);
     white-space: pre-wrap;
@@ -1267,7 +1267,7 @@ content:'\f1b5';
     width: calc(96vw - (96vw - 96%));
     color: rgb(255, 255, 255);
     font-size: 1em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     white-space: pre-wrap;
   
   }
@@ -1490,7 +1490,7 @@ content:'\f1b5';
     width: calc(96vw - (96vw - 96%));
     font-size: 01.0em;
     line-height: 1.4;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     text-align: center;
     transform: translateX(1vh)translateY(-7vh);
     white-space: pre-wrap;
@@ -1677,10 +1677,10 @@ content:'\f1b5';
   .expanding-grid .hentry p {
     /* color: #ccc; */
     width: calc(96vw - (96vw - 96%));
-    font-size: 01.0em;
+    font-size: 00.80em;
     line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-align: center;
+    letter-spacing: 0.04em;
+    text-align: justify center;
     transform: translateX(0vh)translateY(-05.0vh);
     white-space: pre-wrap;
   
