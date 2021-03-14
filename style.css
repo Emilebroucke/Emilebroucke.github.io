@@ -948,7 +948,7 @@ content:'\f1b5';
   .header-banner__h2 {
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 25vh;
+    top: 28vh;
     font-size: 2vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif; font-family: 'Roboto', sans-serif;
@@ -962,7 +962,7 @@ content:'\f1b5';
   .header-banner__h3 {
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 27vh;
+    top: 30vh;
     font-size: 2vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
