@@ -1153,10 +1153,13 @@ content:'\f1b5';
     font-size: 1.5vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1.3em);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   
   }
 
@@ -1167,9 +1170,12 @@ content:'\f1b5';
     font-size: 1.5vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     transform: translateX(1.3em);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   }
   
   .caption {
@@ -1384,11 +1390,13 @@ content:'\f1b5';
     font-size: 1.5vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1.3em);
-  
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   }
 
   .header-banner__h3 {
@@ -1398,10 +1406,13 @@ content:'\f1b5';
     font-size: 1.5vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1.3em);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   }
   
 
@@ -1589,9 +1600,12 @@ content:'\f1b5';
     
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 400;
-    mix-blend-mode: normal;
+    font-weight: 100;
+    mix-blend-mode: multiply;
     transform: translateX(1.85EM);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
    
   
   }
@@ -1604,10 +1618,13 @@ content:'\f1b5';
     font-size: 0.750vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: normal;
     transform: translateX(2EM);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
 
   }
 
@@ -1777,10 +1794,12 @@ content:'\f1b5';
     
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 100;
     mix-blend-mode: normal;
     transform: translateX(1.85EM);
-   
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   
   }
 
@@ -1792,11 +1811,13 @@ content:'\f1b5';
     font-size: 0.750vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: normal;
     transform: translateX(2EM);
-
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   }
 
   .scrolling-arrow, .scrolling-arrow:before {
@@ -1965,10 +1986,12 @@ content:'\f1b5';
     
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 100;
     mix-blend-mode: normal;
     transform: translateX(1.85EM);
-   
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   
   }
 
@@ -1980,10 +2003,13 @@ content:'\f1b5';
     font-size: 0.750vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     mix-blend-mode: normal;
     transform: translateX(2EM);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
 
   }
 
