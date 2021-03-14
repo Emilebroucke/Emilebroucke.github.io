@@ -935,7 +935,7 @@ content:'\f1b5';
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1.5vw;
     position: absolute;
-    right: -1vh;
+    right: -1.65vh;
     font-size: 22vw;
     position: inherit;
     z-index: 20;
@@ -954,6 +954,7 @@ content:'\f1b5';
     font-family: 'Roboto', sans-serif; font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: italic;    mix-blend-mode: soft-light;
+    transform: translateX(1.1em);
   
   
   }
@@ -968,6 +969,7 @@ content:'\f1b5';
     font-weight: 400;
     font-style: italic;
     mix-blend-mode: soft-light;
+    transform: translateX(1.1em);
 
   }
 
@@ -1010,6 +1012,10 @@ content:'\f1b5';
     z-index: 1;
   }
 
+  .scrolling-arrow, .scrolling-arrow:before {
+    position: absolute;
+    left: 49%;
+  }
 
   .icon-menu {
     color: #fff;
