@@ -921,7 +921,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1121,7 +1121,7 @@ content:'\f1b5';
 @media only screen and (min-width: 40em) and (max-width: 59.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1358,7 +1358,7 @@ content:'\f1b5';
 @media only screen and (min-width: 60em) and (max-width: 1024px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1565,7 +1565,7 @@ content:'\f1b5';
 @media only screen and (min-width: 1025px) and (max-width: 2559px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a\ HEADER\ ULTRA.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1759,19 +1759,19 @@ content:'\f1b5';
 @media only screen and (min-width: 2560px) and (max-width: 3839px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a\ HEADER\ ULTRA.jpg') no-repeat center top fixed ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover bottom;
-    background-position-y: -136vh; 
+    background-position-y: -50vh; 
    opacity: 1;
   }
   
 
   .header-banner__h1 {
     width: calc(96vw - (96vw - 96%));
-     margin-top:20vh;
+     margin-top:16vh;
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1.5vw;
     position: absolute;
@@ -1780,9 +1780,10 @@ content:'\f1b5';
     position: inherit;
     z-index: 20;
     mix-blend-mode: overlay;
-    -webkit-text-stroke-width: 1PX;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2PX;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0);
     text-shadow: 3px 3px 3px #858585;
+    
   }
 
   .header-banner__h2 {
