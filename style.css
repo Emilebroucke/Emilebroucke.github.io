@@ -910,11 +910,6 @@ content:'\f1b5';
 
 /* ------------------- Media queries ------------------- */
 
-@media (max-width: 1200px) {
-  .image-row {
-    flex-direction: column;
-  }
-}
 
 
 /* ------------------- MOBILE ------------------- */
