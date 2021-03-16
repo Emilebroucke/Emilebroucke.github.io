@@ -1356,7 +1356,7 @@ content:'\f1b5';
 
 
 /* ------------------- IPAD PRO ------------------- */
-@media only screen and (width: 1024px) and (height: 1366px) {
+@media only screen and (width: 1024px) and (min-height: 1360px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
     background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom ; 
