@@ -921,7 +921,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1121,7 +1121,7 @@ content:'\f1b5';
 @media only screen and (min-width: 40em) and (max-width: 59.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1358,7 +1358,7 @@ content:'\f1b5';
 @media only screen and (min-width: 60em) and (max-width: 1024px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER\ MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1565,7 +1565,7 @@ content:'\f1b5';
 @media only screen and (min-width: 1025px) and (max-width: 2559px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER\ ULTRA.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1759,7 +1759,7 @@ content:'\f1b5';
 @media only screen and (min-width: 2560px) and (max-width: 3839px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER\ ULTRA.jpg') no-repeat center top fixed ;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center top fixed ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1952,7 +1952,7 @@ content:'\f1b5';
 @media only screen and (min-width: 3840px)  {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a_HEADER.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
