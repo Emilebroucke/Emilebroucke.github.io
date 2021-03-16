@@ -921,7 +921,7 @@ content:'\f1b5';
 @media only screen and (max-width: 39.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -955,6 +955,9 @@ content:'\f1b5';
     font-weight: 400;
     font-style: italic;    mix-blend-mode: soft-light;
     transform: translateX(1.1em);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
   
   
   }
@@ -970,6 +973,9 @@ content:'\f1b5';
     font-style: italic;
     mix-blend-mode: soft-light;
     transform: translateX(1.1em);
+    -webkit-text-stroke-width: 1PX;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+    text-shadow: 3px 3px 3px #858585;
 
   }
 
@@ -1121,7 +1127,7 @@ content:'\f1b5';
 @media only screen and (min-width: 40em) and (max-width: 59.99em) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1358,7 +1364,7 @@ content:'\f1b5';
 @media only screen and (min-width: 60em) and (max-width: 1024px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom fixed; 
+    background: url('./images/20015_02a_HEADER_MOBILE.jpg') no-repeat center bottom ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1562,7 +1568,7 @@ content:'\f1b5';
 }
 
 /* ------------------- LAPTOP/DEKSTOP HD ------------------- */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
     background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom fixed;
@@ -1570,7 +1576,7 @@ content:'\f1b5';
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover bottom;
-    background-position-y: -20.5vh; 
+    background-position-y: -10.5vh; 
    opacity: 1;
   }
   
@@ -1763,7 +1769,7 @@ content:'\f1b5';
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover bottom;
-    background-position-y: -35.5vh; 
+    
    opacity: 1;
   }
   
@@ -1956,7 +1962,7 @@ content:'\f1b5';
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover bottom;
-    background-position-y: -35.5vh; 
+    background-position-y: -50.5vh; 
    opacity: 1;
   }
   
@@ -1981,7 +1987,7 @@ content:'\f1b5';
   .header-banner__h2 {
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 19vh;
+    top: 17vh;
     font-size: 0.750vw;
     z-index: 20;
     
@@ -2000,7 +2006,7 @@ content:'\f1b5';
  
     width: calc(96vw - (96vw - 96%));
     position: absolute;
-    top: 21vh;
+    top: 19vh;
     font-size: 0.750vw;
     z-index: 20;
     font-family: 'Roboto', sans-serif;
