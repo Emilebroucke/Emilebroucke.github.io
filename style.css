@@ -107,7 +107,7 @@ header {
   color: rgb(255, 255, 255);
   position: relative;
   animation: appearingBanner 1s;
-  background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom fixed; 
+  background: url('./images/20015_02a\ HEADER.jpg') no-repeat center bottom ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4324,7 +4324,7 @@ content:'\f1b5';
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4517,7 +4517,7 @@ content:'\f1b5';
 @media only screen and (min-width: 1441px) and (max-width: 2559px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center bottom ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4710,7 +4710,7 @@ content:'\f1b5';
 @media only screen and (min-width: 2560px) and (max-width: 3839px) {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center top fixed ;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') no-repeat center top  ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4903,7 +4903,7 @@ content:'\f1b5';
 @media only screen and (min-width: 3840px)  {
   .header-banner {
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER.jpg') no-repeat center bottom fixed;
+    background: url('./images/20015_02a_HEADER.jpg') no-repeat center bottom ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
