@@ -1,5 +1,15 @@
 // definition of all the functions
 
+
+// title animation starts later
+
+setTimeout(() => {
+  const title = document.getElementsByClassName('header-banner__h1');
+  console.log(title[0]);
+  title[0].innerHTML = 'CONTEXT';
+}, 1500);
+
+
 // smooth scrolling
 // scroll-effect
 const scrolling = new SmoothScroll('a[href*="#__"]',

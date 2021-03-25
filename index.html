@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>In context</title>
+  <title>CNTXT</title>
+  <meta name="description" content="Context - rendering">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="aos.css" />
   <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
   <noscript>
@@ -24,7 +25,7 @@
   <div class="navigation-container">
     <nav class="nav" id="navigation">
       <div class="language-menu">
-        <a>
+        <a href="#language-menu">
           <details class='details'>
             <summary class="summary" id="language-picker">
             </summary>
@@ -40,20 +41,18 @@
         </a>
       </div>
       <div class="icon-menu">
-        <a href="https://www.instagram.com/emile_broucke/" target="_blank" class="icon"></a>
-        <a href="https://www.facebook.com/Context-Studio-105778851595181" target="_blank" class="icon"></a>
+        <a href="https://www.instagram.com/emile_broucke/" target="_blank" rel="noopener" class="icon"></a>
+        <a href="https://www.facebook.com/Context-Studio-105778851595181" rel="noopener" target="_blank" class="icon"></a>
 
       </div>
     </nav>
   </div>
   <div class="container">
     <header class="header-banner" id="header-banner">
-      <h1 class="header-banner__h1">CONTEXT</h1>
+      <h1 class="header-banner__h1"></h1>
       <h2 class="header-banner__h2">A CG studio,</h2>
       <h3 class="header-banner__h3">capturing the future.</h3>
-      <div class="background-cover"></div>
-    
-     
+      <div class="background-cover"></div> 
     </header>
     <button type="button" id="scrolling-button" name="scrolling-arrow" class="scrolling-arrow"></button>
     <div class="content-container">
@@ -93,7 +92,7 @@
             </div>
             <p data-localize="content.about">ABOUT</p>
           </article>
-        </div> 
+        </div>
 
         <div id="services" class="expanding-container">
           <article class="hentry dark-green">
@@ -123,20 +122,36 @@
 
        
       </div>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
-      <script src="./jquery.js"></script>
-      <script src="./jquery.localize.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-      <script src="main.js"></script>
-      <script src="https://kit.fontawesome.com/76e32458f5.js" crossorigin="anonymous"></script>
-    
-      <div class="section-title">
-        <h2> </h2>
-    
-      </div>
+		
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+	  <script src="./jquery.js"></script>
+	  <script src="./jquery.localize.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	  <script src="main.js"></script>
+    <style>
+      @import url("https://use.typekit.net/bdu8yww.css");
+      @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Shippori+Mincho&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+    </style>
+	  <script src="https://kit.fontawesome.com/76e32458f5.js" crossorigin="anonymous"></script>
 
-      
+	    <div class="image-row" data-aos="fade-up">
+        <div class="img-box">
+          <a href="./images/20028_05a_A.jpg" data-fancybox="images" data-caption="From the Garden House">
+            <div class="image45"></div>
+            <div class="transparent-box">
+              <div class="caption">
+                <p>From the Garden House</p>
+                <p class="opacity-low">KWK Promes</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>	
 
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
@@ -152,28 +167,24 @@
         </div>
       </div>
 
-
-
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
-          <a href="./images/20026_04b.jpg" data-fancybox="images" data-caption="ZAAL ZALIGER">
+          <a href="./images/20026_04b.jpg" data-fancybox="images" data-caption="EVENT ZAAL">
             <div class="image01"></div>
             <div class="transparent-box">
               <div class="caption">
-                <p>ZAAL ZALIGER</p>
+                <p>EVENT ZAAL</p>
                 <p class="opacity-low">Barbara Standaert</p>
               </div>
             </div>
           </a>
         </div>
         <div class="img-box">
-          <a href="./images/20026_05a.jpg" data-fancybox="images" data-caption="ZAAL ZALIGER">
+          <a href="./images/20026_05a.jpg" data-fancybox="images" data-caption="EVENT ZAAL">
             <div class="image02"></div>
             <div class="transparent-box">
               <div class="caption">
-                <p>ZAAL ZALIGER</p>
+                <p>EVENT ZAAL</p>
                 <p class="opacity-low">Barbara Standaert</p>
               </div>
             </div>
@@ -181,9 +192,6 @@
         </div>
       </div>
 
-
-
-  
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20107_01_cam001a.jpg" data-fancybox="images" data-caption="KYKLADON">
@@ -231,8 +239,6 @@
         </div>
       </div>
 
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/03.effectsResult-2.jpg" data-fancybox="images" data-caption="GALLERY OF LIGHT HOUSE">
@@ -246,8 +252,6 @@
           </a>
         </div>
       </div>
-
-
 
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
@@ -295,8 +299,6 @@
           </a>
         </div>
       </div>
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20017_02a.RGB_color.jpg" data-fancybox="images" data-caption="SARAH COLLECTION">
@@ -321,9 +323,6 @@
           </a>
         </div>
       </div>
-
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20001_02a (1).jpg" data-fancybox="images" data-caption="CAVETT CHAIR">
@@ -348,8 +347,6 @@
           </a>
         </div>
       </div>
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20012_07a.jpg" data-fancybox="images" data-caption="AVENUE 13">
@@ -363,9 +360,6 @@
           </a>
         </div>
       </div>
-
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/01.effectsResult-4.jpg" data-fancybox="images" data-caption="LOFT GOGON">
@@ -412,9 +406,6 @@
           </a>
         </div>
       </div>
-
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20015_02a.jpg" data-fancybox="images" data-caption="GRANDOLA CENTER">
@@ -439,8 +430,6 @@
           </a>
         </div>
       </div>
-
-
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
           <a href="./images/20020_02a_A.jpg" data-fancybox="images" data-caption="BALMAIN EAST">
@@ -465,9 +454,6 @@
           </a>
         </div>
       </div>
-
-
-
 
       <div class="image-row" data-aos="fade-up">
         <div class="img-box">
@@ -666,7 +652,7 @@
 
     <div class="image-row" data-aos="fade-up">
       <div class="img-box">
-        <a href="./images/19101_Test55c.jpg" data-fancybox="images" data-caption="KZZ IEPER">
+        <a href="./images/19101_Test55c.jpg" data-fancybox="images" data-caption="LOFT GOGON">
           <div class="image40"></div>
           <div class="transparent-box">
             <div class="caption">
@@ -721,13 +707,7 @@
     <div class="row">
       <div class="col-6">
         <p><i class="fa fa-phone"></i>      +32 (0)476 393 3303</p>
-        <p><i class="fa fa-envelope"></i>     info@contextstudio.be</p>
-  
-      </div>
-      <div class="col-6">
-        <h3 data-localize="footer.title">CONTEXT</h3>
-        <p data-localize="footer.description">Description</p>
-        </ul>
+        <p><i class="fa fa-envelope"></i>     info@contextstudio.be</p> 
       </div>
     </div>
     <!-- <hr>
@@ -735,20 +715,6 @@
       <div class="col-12">&copy; 2021 Kristof Vandenbroucke</div>
     </div> -->
   </footer>
-  <style>
-    @import url("https://use.typekit.net/bdu8yww.css");
-    @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Shippori+Mincho&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,400;1,900&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-  </style>
-
 </body>
 
 </html>
