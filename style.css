@@ -1618,7 +1618,7 @@ content:'\f1b5';
 }
 
 /* ------------------- IPAD PRO ------------------- */
-@media only screen and (max-width: 1440px){
+@media only screen and (min-width:67em) and (max-width: 1279px){
   .expanding-grid .links>li {
     width: 100%;
   }
@@ -1632,12 +1632,12 @@ content:'\f1b5';
   .header-banner {
     margin: 2vw;
     width: calc(96vw - (96vw - 96%));
-    background: url('./images/20015_02a_HEADER_ULTRA.jpg') repeat auto;
+    background: url('./images/20015_02a_HEADER_ULTRA.jpg') repeat bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover bottom;
-    background-position-y: -20.5vh; 
+   
     opacity: 1;
   }
   
@@ -1908,7 +1908,7 @@ content:'\f1b5';
 
 
   .expanding-grid .links>li {
-    width: 100%;
+    width: 25%;
   }
 
   .expanding-grid .links>li:nth-child(1) {
